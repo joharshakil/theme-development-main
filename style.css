@@ -1,0 +1,82 @@
+/*
+Theme Name: Game Lounge
+Description: A simple WordPress theme with Bootstrap 5 support
+Author: JoharShakil
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: gamelounge
+*/
+
+/* Reset CSS */
+html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styles */
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+p {
+    margin: 0;
+}
+
+#content {
+    padding: 15rem 0;
+}
+a.btn.btn-sm.btn-primary.btn-green, .badge.bg-success {
+    background-color: green;
+    border-color: green;
+}
+.badge.bg-primary {
+    background-color: #286090;
+    border-color: #286090;
+}
+
+.site-title {
+    margin: 0;
+    font-size: 3rem;
+}
+  
+.site-description {
+    margin: 0;
+    font-size: 1.6rem;
+}
+  
+  /* Card styles */
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+  
+.card h2 {
+    font-size: 2rem;
+    margin: 0 0 15px 0;
+}
+  
+.card p {
+    font-size: 1.4rem;
+    margin: 0 0 10px 0;
+}
